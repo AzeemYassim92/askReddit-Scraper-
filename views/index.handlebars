@@ -1,0 +1,77 @@
+<div class="background">
+  <br>
+  <br>
+  <div class="d-flex justify-content-center">
+    <div>
+      <img src="images/reddit-icon.png"></img>
+    </div>
+    <div>
+      <h1 class="text-center text-light shadow p-3 rounded">/r/askReddit Scraper</h1>
+    </div>
+  </div>
+  <div class="text-center">
+    <a href="/scrape" class="mt-3 text-center btn btn-outline-light btn-lg" id="scrape">FIND NEW ARTICLES</a>
+    <button class="mt-3 text-center btn btn-outline-light btn-lg" id="clear-button">CLEAR EVERYTHING</button>
+  </div>
+  <br>
+  <br>
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-md-8 col-12">
+        <div class="card shadow">
+          <div class="card-header">Click on Reddit Titles to Show Notes
+          </div>
+          <div class="card-body" id="articles">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card shadow">
+          <div class="card-header">Notes</div>
+          <div class="card-body" id="notes"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal save-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="text-center modal-title note-title">Note Saved</h4>
+        <button type="button" class="close btn btn-outline-light" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-text">You can update the note by typing in the field again.
+            Or you can select a new article and save another note.
+            Click on any article to see your saved note.
+        </h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal clear-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="text-center modal-title note-title">WARNING!</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-text">
+          This will remove all notes and articles from the database. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger clear" data-dismiss="modal">DELETE ALL ARTICLES</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,104 @@
+.shownotes {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.background {
+  background: linear-gradient(#0575e6, #021b79)
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 42px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.link {
+  font-size: 16px;
+}
+
+.card-header {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+#notes {
+  margin-top: 5px;
+}
+
+img {
+  height: 100px;
+  width: 75px;
+  margin-top: -15px;
+  margin-right: -10px;
+}
+
+#scrape {
+  font-size: 16px;
+}
+
+.clear {
+  font-size: 16px;
+}
+
+.wrapper {
+  padding: 50px;
+  margin-top: -40px;
+}
+
+.article-body {
+  margin-bottom: 20px;
+}
+
+#clear-button {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.btn-outline-light:hover {
+  color: #FF5700;
+}
+
+#time {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#savenote:hover {
+  background-color: #FF5700;
+  border-color: #FF5700;
+}
+
+#savenote:active, #savenote:active:focus {
+  background-color: white !important;
+  color: #FF5700 !important;
+  border-color: #FF5700 !important;
+  box-shadow: none !important;
+}
+
+.btn-outline-info {
+  background-color: white;
+  color: #FF5700;
+  border-color: #FF5700
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+#bodyinput {
+  height: 100px;
+}
+
+.delete {
+  font-size: 16px;
+  text-align: right;
+}
